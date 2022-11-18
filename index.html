@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" style="background-color:#e6e1e1">
+    <div class="container" style="background-color:#e6e1e1">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="Navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand text-primary" href="#"><b>Bootstrap</b></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#buttons">Buttons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#card">Card</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#typography">Typography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#table">Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#carousel">Carousel</a>
+              </li>
+             
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <h3 class="py-5 mt-5" id="home">Bootstrap 5</h3>
+    <div class="container text-center " ><h1>Container</h1>
+        <div class="row gx-5">
+          <div class="col">
+           <div class="border p-3 bg-info">Custom column padding</div>
+          </div>
+          <div class="col">
+            <div class="border p-3  bg-warning">Custom column padding</div>
+          </div>
+          <div class="col">
+            <div class="border p-3  bg-primary">Custom column padding</div>
+          </div>
+         
+        </div>
+    </div>
+    <div class="container-fluid bg-dark my-5 py-5 text-white text-center">
+        <div class="row">
+            <div class="col">
+                <h5>Container-fluid example</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-3 border text-center bg-white">Custom glutter</div>
+            </div>
+            <div class="col">
+                <div class="p-3 border text-center bg-white">Custom glutter</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <h2 class="pt-5" id="buttons">Buttons</h2>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <button class=" btn btn-primary ">Primary</button>
+                <button class=" btn btn-dark">Dark</button>
+                <button class=" btn btn-warning">Warning</button>
+                <button class="btn btn-danger">Danger</button>
+                <button class="btn btn-link">Link</button>
+                <button class="btn btn-success">Success</button>
+            </div>
+            <div class="col">
+                <button class=" btn btn-outline-primary btn-lg">Primary</button>
+                <button class=" btn btn-outline-dark">Dark</button>
+                <button class=" btn btn-outline-warning">Warning</button>
+                <button class="btn btn-outline-danger">Danger</button>
+                <button class="btn btn-outline-success">Success</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <h1 id="card">Card</h1>
+    <div class="container" >
+    <div class="row my-5">
+        <div class="col-sm my-3">
+            <div class="card bg-primary text-white">
+                
+                <div class="card-body">
+                    <div class="card-header">Featured</div>
+                    <div class="card-title"><b>title</b></div>
+                    <div class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ab fuga labore velit iure porro ipsa esse tenetur est obcaecati? Non totam dignissimos illo architecto cumque excepturi vitae natus reprehenderit?
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm my-3">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <div class="card-header">Featured</div>
+                    <div class="card-title"><b>title</b></div>
+                    <div class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ab fuga labore velit iure porro ipsa esse tenetur est obcaecati? Non totam dignissimos illo architecto cumque excepturi vitae natus reprehenderit?
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm my-3">
+            <div class="card bg-primary text-white">
+                <div class="card-body"> <div class="card-header">Featured</div>
+                    <div class="card-title"><b>title</b></div>
+                    <div class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ab fuga labore velit iure porro ipsa esse tenetur est obcaecati? Non totam dignissimos illo architecto cumque excepturi vitae natus reprehenderit?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    </div>
+    <hr>
+
+    <h1 class="my-5"id="typography">Typography</h1>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col">
+                <p class="h1">h1 class</p>
+                <p class="h2">h2 class</p>
+                <p class="h3">h3 class</p>
+                <p class="h4">h4 class</p>
+            </div>
+            <div class="col">
+                <p class="display-1">display1 class</p>
+                <p class="display-2">display2 class</p>
+                <p class="display-5">display5 class</p>
+                <p class="display-6">display6 class</p>
+            </div>
+        </div>
+    </div>
+<div class="container ">
+    <p><mark>This represents Mark</mark></p>
+    <p><del>Deletedtext</del></p>
+    <p><u>undeline text</u></p>
+    <p><small>Small text</small></p>
+    <p><strong>Strong text</strong></p>
+    <p><em>Italicized text</em></p>
+</div>
+<h4>Blockquote</h4>
+<figure class=" px-5">
+    <blockquote class="blockquote">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae explicabo aut dolorum doloremque cupiditate molestias nisi numquam quo. Placeat vero nulla non adipisci temporibus, aperiam aut dolorum voluptate maxime mollitia.
+    </blockquote>
+    <figcaption class="blockquote-footer">
+        <cite title="Source Title">source title</cite>
+    </figcaption>
+</figure>
+<p>list unstyled</p>
+<ol class="list-unstyled px-5">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ol>
+<p>list inline</p>
+<ul class="list-inline px-5">
+    <li class="list-inline-item">1</li>
+    <li class="list-inline-item">2</li>
+    <li class="list-inline-item">3</li>
+</ul>
+<hr>
+
+<div class="container" id="table"><h4>Table</h4>
+    <table class="table table-primary table-striped table-hover table-bordered border-dark text-center">
+        <thead>
+            <tr class="table-danger">
+                <th scope="col">#</th>
+                <th scope="col">first</th>
+                <th scope="col">last</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td colspan="2">colspan</td>
+               
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>xyz</td>
+                <td>asd</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>dfg</td>
+                <td>jkl</td>
+            </tr>
+        </tbody>
+    </table>
+
+<h3 class="py-5">Alert</h3>
+    <div class="alert alert-danger" role="alert">
+        This is important!
+    </div>
+</div>
+<hr>
+
+
+<div id="carouselExampleCaptions" class=" container carousel slide my-5" data-bs-ride="carousel">
+    <h1 id="carousel">Carousel</h1>
+    <div class="carousel-indicators" >
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.jpg" class="d-block w-100" alt="..." height="500">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg" class="d-block w-100" alt="..." height="500">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" class="d-block w-100" alt="..." height="500">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <p class="text-white pt-3 text-center">Website Designed By: nSoudha-8 in 2022</p>
+            </div>   
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
